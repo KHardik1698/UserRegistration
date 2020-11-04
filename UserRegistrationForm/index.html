@@ -7,34 +7,72 @@
   </head>
   <body>
     <h1>User Registration</h1>
-    <fieldset>
-      <legend>User details</legend>
-      <form action="" method="POST">
+    <form action="" method="POST">
+      <fieldset>
+        <legend>User details</legend>
         <label for="username">Username</label>
         <input type="text" id="username" />
+        <br />
+        <br />
+        <label for="email">Email ID</label>
+        <input type="email" id="email" />
+        <br />
+        <br />
         <label for="password">Password</label>
         <input type="password" id="password" />
-        <hr />
-        <label for="company">Company</label>
-        <input type="radio" name="company" />Raw Engineering
-        <input type="radio" name="company" />Contentstack
-        <hr />
-        <label for="country">Country</label>
-        <select name="country" id="">
-          <option value="1">India</option>
-          <option value="2">United States</option>
-          <option value="3">Australia</option>
-          <option value="4">United Kingdom</option>
+        <br />
+        <br />
+        <label for="location">Location</label>
+        <select name="location" id="">
+          <option value="1">Virar</option>
+          <option value="2">Vasai</option>
+          <option value="3">Nallasopara</option>
+          <option value="4">Other</option>
         </select>
-        <hr />
-        <label for="sports">Sports</label>
+      </fieldset>
+      <fieldset>
+        <legend>Company details</legend>
+        <input type="radio" name="company" />Raw Engineering
+        <br />
+        <input type="radio" name="company" />Contentstack
+        <br />
+        <input type="radio" name="company" />Surfboard
+        <br />
+        <label for="position">Position</label>
+        <select name="position" id="">
+          <option value="1">Trainee</option>
+          <option value="2">Application Engineer</option>
+          <option value="3">Devops Engineer</option>
+          <option value="4">MERN Stack Developer</option>
+          <option value="5">Other position</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Education Qualifications</legend>
+        <input type="radio" name="education" />SSC
+        <br />
+        <input type="radio" name="education" />ICSE
+        <br />
+        <input type="checkbox" name="education" />12th
+        <br />
+        <input type="checkbox" name="education" />Diploma
+        <br />
+        <input type="checkbox" name="education" />Under Graduation
+        <br />
+        <input type="checkbox" name="education" />Post Graduation
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Sports Interests</legend>
         <input type="checkbox" name="sports" />Cricket
+        <br />
         <input type="checkbox" name="sports" />Football
+        <br />
         <input type="checkbox" name="sports" />Tennis
         <br />
-        <br />
-        <input type="submit" />
-      </form>
-    </fieldset>
+      </fieldset>
+      <br />
+      <input type="submit" />
+    </form>
   </body>
 </html>
