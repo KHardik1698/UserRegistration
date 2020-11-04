@@ -7,32 +7,34 @@
   </head>
   <body>
     <h1>User Registration</h1>
-    <form action="" method="POST">
-      <label for="username">Username</label>
-      <input type="text" id="username" />
-      <label for="password">Password</label>
-      <input type="password" id="password" />
-      <hr />
-      <label for="company">Company</label>
-      <input type="radio" name="company" />Raw Engineering
-      <input type="radio" name="company" />Contentstack
-      <hr />
-      <label for="country">Country</label>
-      <select name="country" id="">
-        <option value="1">India</option>
-        <option value="2">United States</option>
-        <option value="3">Australia</option>
-        <option value="4">United Kingdom</option>
-      </select>
-      <hr />
-      <label for="sports">Sports</label>
-      <input type="checkbox" name="sports" />Cricket
-      <input type="checkbox" name="sports" />Football
-      <input type="checkbox" name="sports" />Tennis
-
-      <br />
-      <br />
-      <input type="submit" />
-    </form>
+    <fieldset>
+      <legend>User details</legend>
+      <form action="" method="POST">
+        <label for="username">Username</label>
+        <input type="text" id="username" />
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+        <hr />
+        <label for="company">Company</label>
+        <input type="radio" name="company" />Raw Engineering
+        <input type="radio" name="company" />Contentstack
+        <hr />
+        <label for="country">Country</label>
+        <select name="country" id="">
+          <option value="1">India</option>
+          <option value="2">United States</option>
+          <option value="3">Australia</option>
+          <option value="4">United Kingdom</option>
+        </select>
+        <hr />
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="sports" />Cricket
+        <input type="checkbox" name="sports" />Football
+        <input type="checkbox" name="sports" />Tennis
+        <br />
+        <br />
+        <input type="submit" />
+      </form>
+    </fieldset>
   </body>
 </html>
